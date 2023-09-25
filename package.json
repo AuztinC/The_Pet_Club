@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node index",
     "build:dev": "webpack --watch --mode=development",
     "start:dev": "nodemon index --ignore src/ --ignore dist/"
   },
